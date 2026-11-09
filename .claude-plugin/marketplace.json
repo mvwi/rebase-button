@@ -1,5 +1,5 @@
 {
-  "name": "cc-mod-rebase-button",
+  "name": "rebase-button",
   "owner": { "name": "Michael Williams" },
   "plugins": [{ "name": "rebase-button", "source": "./" }]
 }

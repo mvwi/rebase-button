@@ -13,7 +13,7 @@ A Claude Code mod that shows a band above the prompt when your branch is behind 
 At the prompt of a terminal session:
 
 ```
-/plugin install rebase-button --marketplace mvwi/cc-mod-rebase-button
+/plugin install rebase-button --marketplace mvwi/rebase-button
 ```
 
 Answer `y` to add the marketplace, then pick a scope.
@@ -21,15 +21,15 @@ Answer `y` to add the marketplace, then pick a scope.
 From a shell:
 
 ```bash
-claude plugin install rebase-button --marketplace mvwi/cc-mod-rebase-button
+claude plugin install rebase-button --marketplace mvwi/rebase-button
 ```
 
-In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `mvwi/cc-mod-rebase-button`, then Add plugin.
+In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `mvwi/rebase-button`, then Add plugin.
 
 ### Without installing a plugin
 
 ```bash
-git clone https://github.com/mvwi/cc-mod-rebase-button ~/.claude/mods/rebase-button
+git clone https://github.com/mvwi/rebase-button ~/.claude/mods/rebase-button
 ```
 
 Then add `~/.claude/mods/rebase-button` to `CLAUDE_CODE_PLUGIN_DIRS` under `env` in `~/.claude/settings.json` (join several paths with `:`) and restart Claude Code. Update with `git pull`.
