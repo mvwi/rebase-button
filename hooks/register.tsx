@@ -3,10 +3,10 @@ import type { EngineInterface, Register } from 'claude-code'
 
 import type { Behind } from '../types'
 
-const behind = atom({ plugin: 'trunk-behind', key: 'behind' } as const, null)
-const isBusy = atom({ plugin: 'trunk-behind', key: 'isBusy' } as const, false)
+const behind = atom({ plugin: 'rebase-button', key: 'behind' } as const, null)
+const isBusy = atom({ plugin: 'rebase-button', key: 'isBusy' } as const, false)
 // Trunk whose rebase just aborted on conflicts; the band then offers a merge Claude finishes.
-const conflict = atom({ plugin: 'trunk-behind', key: 'conflict' } as const, null)
+const conflict = atom({ plugin: 'rebase-button', key: 'conflict' } as const, null)
 
 const CHECK_MS = 60_000
 const FETCH_MS = 5 * 60_000

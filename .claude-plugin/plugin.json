@@ -1,1 +1,1 @@
-{ "name": "trunk-behind", "version": "0.1.0", "description": "Band above the prompt when the branch is behind trunk, with a Rebase button", "license": "MIT", "types": "./types/index.d.ts" }
+{ "name": "rebase-button", "version": "0.1.0", "description": "Band above the prompt when the branch is behind trunk, with a Rebase button", "license": "MIT", "types": "./types/index.d.ts" }
